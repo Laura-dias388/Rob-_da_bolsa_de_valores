@@ -1,0 +1,7 @@
+.venv/
+**pycache**/
+*.pyc
+.vscode/
+
+dados.csv
+resultados.csv
