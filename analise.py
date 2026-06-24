@@ -12,7 +12,7 @@ dados = yf.download(
     start="2023-01-01",
     end="2026-01-01"
 )
-
+dados.to_csv("WEGE3_historico.csv")
 # ====================================
 # Criando variaveis target
 
