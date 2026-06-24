@@ -40,7 +40,7 @@ y_teste = teste["Target"]
 
 modelo = DecisionTreeClassifier(
     random_state=42,
-    max_depth=5
+    max_depth=5 # a árvore pode criar até 5 níveis de decisão para não ocorrer decoreba
 )
 
 modelo.fit(X_treino, y_treino) # aorendizagem do modelo usando os dados obtidos
