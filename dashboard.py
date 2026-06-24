@@ -189,7 +189,7 @@ col5.metric(
 # Gráfico da ação
 
 st.subheader(
-    f"Preço de Fechamento da WEGE3 - {ano_visualizacao}"
+    "Métricas do Modelo (Teste em 2025)"
 )
 
 st.line_chart(
@@ -249,18 +249,9 @@ st.subheader(
     "Resumo dos Resultados"
 )
 
-st.write(
-    f"""
-O modelo Decision Tree foi treinado utilizando dados da ação WEGE3 dos anos de 2023 e 2024 e testado com dados de 2025.
-
-Resultados obtidos:
-
-- Acurácia: {acuracia:.2%}
-- Precisão: {precisao:.2%}
-- F1-Score: {f1:.2%}
-- Acertos: {acertos}
-- Erros: {erros}
-
-Ano selecionado para visualização: {ano_visualizacao}
-"""
-)
+st.write("""
+O modelo foi treinado com dados de 2023 e 2024
+e avaliado utilizando dados de 2025.
+As métricas permanecem fixas independentemente
+do ano selecionado para visualização.
+""")
